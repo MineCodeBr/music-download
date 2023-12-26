@@ -1,0 +1,22 @@
+{
+  "name": "music-download",
+  "version": "1.0.0",
+  "description": ":D",
+  "main": "index.js",
+  "bin": {
+   "music-download": "index.js"
+  },
+  "scripts": {
+    "test": "music-download"
+  },
+  "keywords": [],
+  "author": "minecodebr",
+  "license": "MIT",
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
+    "node-df": "^0.1.4",
+    "prompts": "^2.4.2",
+    "ytdl-core": "^4.11.5",
+    "ytpl": "^2.3.0"
+  }
+}
